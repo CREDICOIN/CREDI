@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CREDCOIN</source>
-        <translation>&amp;О CREDCOIN</translation>
+        <source>About CREDICOIN</source>
+        <translation>&amp;О CREDICOIN</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CREDCOIN&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CREDCOIN&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;CREDICOIN&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CREDICOIN&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The CREDCOIN developers</source>
-        <translation>Разработчики CREDCOIN</translation>
+        <source>The CREDICOIN developers</source>
+        <translation>Разработчики CREDICOIN</translation>
     </message>
 </context>
 <context>
@@ -67,7 +67,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your CREDCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your CREDICOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a CREDCOIN address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом CREDCOIN</translation>
+        <source>Sign a message to prove you own a CREDICOIN address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом CREDICOIN</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified CREDCOIN address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом CREDCOIN</translation>
+        <source>Verify a message to ensure it was signed with a specified CREDICOIN address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом CREDICOIN</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,7 +122,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your CREDCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your CREDICOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ваши адреса для получения средств. Совет: проверьте сумму и адрес назначения перед переводом.</translation>
     </message>
     <message>
@@ -275,8 +275,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>CREDCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CREDCOINs from being stolen by malware infecting your computer.</source>
-        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши CREDCOIN от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+        <source>CREDICOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CREDICOINs from being stolen by malware infecting your computer.</source>
+        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши CREDICOIN от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CREDCOIN</source>
-        <translation>Показать информацию о CREDCOIN&apos;е</translation>
+        <source>Show information about CREDICOIN</source>
+        <translation>Показать информацию о CREDICOIN&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a CREDCOIN address</source>
-        <translation>Отправить монеты на указанный адрес CREDCOIN</translation>
+        <source>Send coins to a CREDICOIN address</source>
+        <translation>Отправить монеты на указанный адрес CREDICOIN</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for CREDCOIN</source>
-        <translation>Изменить параметры конфигурации CREDCOIN</translation>
+        <source>Modify configuration options for CREDICOIN</source>
+        <translation>Изменить параметры конфигурации CREDICOIN</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>CREDCOIN</source>
-        <translation>CREDCOIN</translation>
+        <source>CREDICOIN</source>
+        <translation>CREDICOIN</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About CREDCOIN</source>
-        <translation>&amp;О CREDCOIN</translation>
+        <source>&amp;About CREDICOIN</source>
+        <translation>&amp;О CREDICOIN</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your CREDCOIN addresses to prove you own them</source>
-        <translation>Подписать сообщения вашим адресом CREDCOIN, чтобы доказать, что вы им владеете</translation>
+        <source>Sign messages with your CREDICOIN addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим адресом CREDICOIN, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified CREDCOIN addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом CREDCOIN</translation>
+        <source>Verify messages to ensure they were signed with specified CREDICOIN addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом CREDICOIN</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,12 +536,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>CREDCOIN client</source>
-        <translation>CREDCOIN клиент</translation>
+        <source>CREDICOIN client</source>
+        <translation>CREDICOIN клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to CREDCOIN network</source>
+        <source>%n active connection(s) to CREDICOIN network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -656,8 +656,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid CREDCOIN address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом CREDCOIN или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CREDICOIN address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом CREDICOIN или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. CREDCOIN can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. CREDCOIN не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. CREDICOIN can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. CREDICOIN не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CREDCOIN address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным CREDCOIN-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CREDICOIN address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным CREDICOIN-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>CREDCOIN-Qt</source>
-        <translation>CREDCOIN-Qt</translation>
+        <source>CREDICOIN-Qt</source>
+        <translation>CREDICOIN-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CREDCOIN after logging in to the system.</source>
-        <translation>Автоматически запускать CREDCOIN после входа в систему</translation>
+        <source>Automatically start CREDICOIN after logging in to the system.</source>
+        <translation>Автоматически запускать CREDICOIN после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CREDCOIN on system login</source>
-        <translation>&amp;Запускать CREDCOIN при входе в систему</translation>
+        <source>&amp;Start CREDICOIN on system login</source>
+        <translation>&amp;Запускать CREDICOIN при входе в систему</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CREDCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для CREDCOIN-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the CREDICOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для CREDICOIN-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CREDCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети CREDCOIN через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the CREDICOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети CREDICOIN через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CREDCOIN.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска CREDCOIN.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CREDICOIN.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска CREDICOIN.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show CREDCOIN addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса CREDCOIN в списке транзакций.</translation>
+        <source>Whether to show CREDICOIN addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса CREDICOIN в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CREDCOIN.</source>
-        <translation>Эта настройка вступит в силу после перезапуска CREDCOIN</translation>
+        <source>This setting will take effect after restarting CREDICOIN.</source>
+        <translation>Эта настройка вступит в силу после перезапуска CREDICOIN</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CREDCOIN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью CREDCOIN после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CREDICOIN network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью CREDICOIN после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start CREDCOIN: click-to-pay handler</source>
-        <translation>Не удаётся запустить CREDCOIN: обработчик click-to-pay</translation>
+        <source>Cannot start CREDICOIN: click-to-pay handler</source>
+        <translation>Не удаётся запустить CREDICOIN: обработчик click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CREDCOIN-Qt help message to get a list with possible CREDCOIN command-line options.</source>
-        <translation>Показать помощь по CREDCOIN-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the CREDICOIN-Qt help message to get a list with possible CREDICOIN command-line options.</source>
+        <translation>Показать помощь по CREDICOIN-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>CREDCOIN - Debug window</source>
-        <translation>CREDCOIN - Окно отладки</translation>
+        <source>CREDICOIN - Debug window</source>
+        <translation>CREDICOIN - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CREDCOIN Core</source>
-        <translation>Ядро CREDCOIN</translation>
+        <source>CREDICOIN Core</source>
+        <translation>Ядро CREDICOIN</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CREDCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл CREDCOIN из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the CREDICOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл CREDICOIN из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the CREDCOIN RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль CREDCOIN.</translation>
+        <source>Welcome to the CREDICOIN RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль CREDICOIN.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CREDCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Введите CREDCOIN-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
+        <source>Enter a CREDICOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Введите CREDICOIN-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CREDCOIN address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом CREDCOIN</translation>
+        <source>Sign the message to prove you own this CREDICOIN address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом CREDICOIN</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CREDCOIN address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом CREDCOIN</translation>
+        <source>Verify the message to ensure it was signed with the specified CREDICOIN address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом CREDICOIN</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CREDCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Введите адрес CREDCOIN (напр. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CREDICOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Введите адрес CREDICOIN (напр. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CREDCOIN signature</source>
-        <translation>Введите подпись CREDCOIN</translation>
+        <source>Enter CREDICOIN signature</source>
+        <translation>Введите подпись CREDICOIN</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The CREDCOIN developers</source>
-        <translation>Разработчики CREDCOIN</translation>
+        <source>The CREDICOIN developers</source>
+        <translation>Разработчики CREDICOIN</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1735,7 +1735,7 @@ Address: %4
         <location line="+45"/>
         <location line="+17"/>
         <location line="+30"/>
-        <source>Credit</source>
+        <source>CREDIit</source>
         <translation>Кредит</translation>
     </message>
     <message numerus="yes">
@@ -2187,7 +2187,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>CREDCOIN version</source>
+        <source>CREDICOIN version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2197,8 +2197,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or CREDCOIN</source>
-        <translation>Отправить команду на -server или CREDCOIN</translation>
+        <source>Send command to -server or CREDICOIN</source>
+        <translation>Отправить команду на -server или CREDICOIN</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2218,13 +2218,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: CREDCOIN.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: CREDCOIN.conf)</translation>
+        <source>Specify configuration file (default: CREDICOIN.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: CREDICOIN.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: CREDCOIN.pid)</source>
-        <translation>Задать pid-файл (по умолчанию: CREDCOIN.pid)</translation>
+        <source>Specify pid file (default: CREDICOIN.pid)</source>
+        <translation>Задать pid-файл (по умолчанию: CREDICOIN.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2301,24 +2301,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=CREDCOINrpc
+rpcuser=CREDICOINrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CREDCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CREDICOIN Alert&quot; admin@foo.com
 </source>
         <translation>%s, вы должны установить опцию rpcpassword в конфигурационном файле:
  %s
 Рекомендуется использовать следующий случайный пароль:
-rpcuser=CREDCOINrpc
+rpcuser=CREDICOINrpc
 rpcpassword=%s
 (вам не нужно запоминать этот пароль)
 Имя и пароль ДОЛЖНЫ различаться.
 Если файл не существует, создайте его и установите права доступа только для владельца, только для чтения.
 Также рекомендуется включить alertnotify для оповещения о проблемах;
-Например: alertnotify=echo %%s | mail -s &quot;CREDCOIN Alert&quot; admin@foo.com
+Например: alertnotify=echo %%s | mail -s &quot;CREDICOIN Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2333,8 +2333,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CREDCOIN is probably already running.</source>
-        <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, CREDCOIN уже работает.</translation>
+        <source>Cannot obtain a lock on data directory %s. CREDICOIN is probably already running.</source>
+        <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, CREDICOIN уже работает.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2378,8 +2378,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CREDCOIN will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, CREDCOIN будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CREDICOIN will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, CREDICOIN будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2628,9 +2628,9 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the CREDCOIN Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the CREDICOIN Wiki for SSL setup instructions)</source>
         <translation>
-Параметры SSL: (см. CREDCOIN Wiki для инструкций по настройке SSL)</translation>
+Параметры SSL: (см. CREDICOIN Wiki для инструкций по настройке SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2819,13 +2819,13 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CREDCOIN</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию CREDCOIN</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CREDICOIN</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию CREDICOIN</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart CREDCOIN to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите CREDCOIN для завершения операции.</translation>
+        <source>Wallet needed to be rewritten: restart CREDICOIN to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите CREDICOIN для завершения операции.</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2884,8 +2884,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. CREDCOIN is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, CREDCOIN уже работает.</translation>
+        <source>Unable to bind to %s on this computer. CREDICOIN is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, CREDICOIN уже работает.</translation>
     </message>
     <message>
         <location line="+64"/>

@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CREDCOIN</source>
-        <translation>CREDCOINist</translation>
+        <source>About CREDICOIN</source>
+        <translation>CREDICOINist</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CREDCOIN&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CREDCOINi&lt;/b&gt; versioon</translation>
+        <source>&lt;b&gt;CREDICOIN&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CREDICOINi&lt;/b&gt; versioon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The CREDCOIN developers</source>
+        <source>The CREDICOIN developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -67,8 +67,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your CREDCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Maksete saamiseks kasutatavad CREDCOINi aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
+        <source>These are your CREDICOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Maksete saamiseks kasutatavad CREDICOINi aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,7 +82,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a CREDCOIN address</source>
+        <source>Sign a message to prove you own a CREDICOIN address</source>
         <translation>Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified CREDCOIN address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud CREDCOINi aadressiga.</translation>
+        <source>Verify a message to ensure it was signed with a specified CREDICOIN address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud CREDICOINi aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your CREDCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu CREDCOINi aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your CREDICOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu CREDICOINi aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>CREDCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CREDCOINs from being stolen by malware infecting your computer.</source>
-        <translation>CREDCOIN sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista CREDCOINide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>CREDICOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CREDICOINs from being stolen by malware infecting your computer.</source>
+        <translation>CREDICOIN sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista CREDICOINide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CREDCOIN</source>
-        <translation>Kuva info CREDCOINi kohta</translation>
+        <source>Show information about CREDICOIN</source>
+        <translation>Kuva info CREDICOINi kohta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a CREDCOIN address</source>
-        <translation>Saada münte CREDCOINi aadressile</translation>
+        <source>Send coins to a CREDICOIN address</source>
+        <translation>Saada münte CREDICOINi aadressile</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for CREDCOIN</source>
-        <translation>Muuda CREDCOINi seadeid</translation>
+        <source>Modify configuration options for CREDICOIN</source>
+        <translation>Muuda CREDICOINi seadeid</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>CREDCOIN</source>
-        <translation>CREDCOIN</translation>
+        <source>CREDICOIN</source>
+        <translation>CREDICOIN</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About CREDCOIN</source>
-        <translation>%CREDCOINist</translation>
+        <source>&amp;About CREDICOIN</source>
+        <translation>%CREDICOINist</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your CREDCOIN addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma CREDCOINi aadressiga</translation>
+        <source>Sign messages with your CREDICOIN addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma CREDICOINi aadressiga</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified CREDCOIN addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud CREDCOINi aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified CREDICOIN addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud CREDICOINi aadressiga</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>CREDCOIN client</source>
-        <translation>CREDCOINi klient</translation>
+        <source>CREDICOIN client</source>
+        <translation>CREDICOINi klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to CREDCOIN network</source>
-        <translation><numerusform>%n aktiivne ühendus CREDCOINi võrku</numerusform><numerusform>%n aktiivset ühendust CREDCOINi võrku</numerusform></translation>
+        <source>%n active connection(s) to CREDICOIN network</source>
+        <translation><numerusform>%n aktiivne ühendus CREDICOINi võrku</numerusform><numerusform>%n aktiivset ühendust CREDICOINi võrku</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid CREDCOIN address or malformed URI parameters.</source>
-        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu CREDCOINi aadress või vigased URI parameetrid.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CREDICOIN address or malformed URI parameters.</source>
+        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu CREDICOINi aadress või vigased URI parameetrid.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. CREDCOIN can no longer continue safely and will quit.</source>
-        <translation>Ilmnes kriitiline tõrge. CREDCOIN suletakse turvakaalutluste tõttu.</translation>
+        <source>A fatal error occurred. CREDICOIN can no longer continue safely and will quit.</source>
+        <translation>Ilmnes kriitiline tõrge. CREDICOIN suletakse turvakaalutluste tõttu.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CREDCOIN address.</source>
-        <translation>Sisestatud aadress &quot;%1&quot; ei ole CREDCOINis kehtiv.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CREDICOIN address.</source>
+        <translation>Sisestatud aadress &quot;%1&quot; ei ole CREDICOINis kehtiv.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>CREDCOIN-Qt</source>
-        <translation>CREDCOINi-Qt</translation>
+        <source>CREDICOIN-Qt</source>
+        <translation>CREDICOINi-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CREDCOIN after logging in to the system.</source>
-        <translation>Käivita CREDCOIN süsteemi logimisel.</translation>
+        <source>Automatically start CREDICOIN after logging in to the system.</source>
+        <translation>Käivita CREDICOIN süsteemi logimisel.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CREDCOIN on system login</source>
-        <translation>&amp;Start CREDCOIN sisselogimisel</translation>
+        <source>&amp;Start CREDICOIN on system login</source>
+        <translation>&amp;Start CREDICOIN sisselogimisel</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CREDCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>CREDCOINi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the CREDICOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>CREDICOINi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CREDCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Kasuta CREDCOINi võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
+        <source>Connect to the CREDICOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Kasuta CREDICOINi võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CREDCOIN.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub CREDCOINi käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CREDICOIN.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub CREDICOINi käivitamisel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show CREDCOIN addresses in the transaction list or not.</source>
-        <translation>Kuvada CREDCOINi aadress tehingute loetelus või mitte.</translation>
+        <source>Whether to show CREDICOIN addresses in the transaction list or not.</source>
+        <translation>Kuvada CREDICOINi aadress tehingute loetelus või mitte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CREDCOIN.</source>
-        <translation>Tehtud valik rakendub CREDCOINi käivitamisel.</translation>
+        <source>This setting will take effect after restarting CREDICOIN.</source>
+        <translation>Tehtud valik rakendub CREDICOINi käivitamisel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,7 +1014,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CREDCOIN network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CREDICOIN network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1068,8 +1068,8 @@ Aadress: %4⏎</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start CREDCOIN: click-to-pay handler</source>
-        <translation>CREDCOIN ei käivitu: vajuta-maksa toiming</translation>
+        <source>Cannot start CREDICOIN: click-to-pay handler</source>
+        <translation>CREDICOIN ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CREDCOIN-Qt help message to get a list with possible CREDCOIN command-line options.</source>
-        <translation>Näita kehtivate käsurea valikute kuvamiseks CREDCOINi-Qt abiteksti</translation>
+        <source>Show the CREDICOIN-Qt help message to get a list with possible CREDICOIN command-line options.</source>
+        <translation>Näita kehtivate käsurea valikute kuvamiseks CREDICOINi-Qt abiteksti</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>CREDCOIN - Debug window</source>
-        <translation>CREDCOIN - debugimise aken</translation>
+        <source>CREDICOIN - Debug window</source>
+        <translation>CREDICOIN - debugimise aken</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CREDCOIN Core</source>
-        <translation>CREDCOINi tuumik</translation>
+        <source>CREDICOIN Core</source>
+        <translation>CREDICOINi tuumik</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CREDCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava CREDCOINi logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the CREDICOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava CREDICOINi logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the CREDCOIN RPC console.</source>
-        <translation>Teretulemast CREDCOINi RPC konsooli.</translation>
+        <source>Welcome to the CREDICOIN RPC console.</source>
+        <translation>Teretulemast CREDICOINi RPC konsooli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1447,8 +1447,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CREDCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta CREDCOINi aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CREDICOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta CREDICOINi aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CREDCOIN address</source>
-        <translation>Allkirjasta sõnum CREDCOINi aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this CREDICOIN address</source>
+        <translation>Allkirjasta sõnum CREDICOINi aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CREDCOIN address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud CREDCOINi aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified CREDICOIN address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud CREDICOINi aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CREDCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta CREDCOINi aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CREDICOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta CREDICOINi aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CREDCOIN signature</source>
-        <translation>Sisesta CREDCOINi allkiri</translation>
+        <source>Enter CREDICOIN signature</source>
+        <translation>Sisesta CREDICOINi allkiri</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1648,7 +1648,7 @@ Aadress: %4⏎</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The CREDCOIN developers</source>
+        <source>The CREDICOIN developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1734,7 +1734,7 @@ Aadress: %4⏎</translation>
         <location line="+45"/>
         <location line="+17"/>
         <location line="+30"/>
-        <source>Credit</source>
+        <source>CREDIit</source>
         <translation>Krediit</translation>
     </message>
     <message numerus="yes">
@@ -2186,8 +2186,8 @@ Aadress: %4⏎</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>CREDCOIN version</source>
-        <translation>CREDCOINi versioon</translation>
+        <source>CREDICOIN version</source>
+        <translation>CREDICOINi versioon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2196,8 +2196,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or CREDCOIN</source>
-        <translation>Saada käsklus -serverile või CREDCOINile</translation>
+        <source>Send command to -server or CREDICOIN</source>
+        <translation>Saada käsklus -serverile või CREDICOINile</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: CREDCOIN.conf)</source>
-        <translation>Täpsusta sätete fail (vaikimisi: CREDCOIN.conf)</translation>
+        <source>Specify configuration file (default: CREDICOIN.conf)</source>
+        <translation>Täpsusta sätete fail (vaikimisi: CREDICOIN.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: CREDCOIN.pid)</source>
-        <translation>Täpsusta PID fail (vaikimisi: CREDCOIN.pid)</translation>
+        <source>Specify pid file (default: CREDICOIN.pid)</source>
+        <translation>Täpsusta PID fail (vaikimisi: CREDICOIN.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,24 +2299,24 @@ Aadress: %4⏎</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=CREDCOINrpc
+rpcuser=CREDICOINrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CREDCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CREDICOIN Alert&quot; admin@foo.com
 </source>
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
 Soovitatav on kasutada järgmist juhuslikku parooli:
-rpcuser=CREDCOINrpc
+rpcuser=CREDICOINrpc
 rpcpassword=%s
 (seda parooli ei pea meeles pidama)
 Kasutajanimi ning parool EI TOHI kattuda.
 Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
 Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;CREDCOIN Alert&quot; admin@foo.com
+nt: alertnotify=echo %%s | email -s &quot;CREDICOIN Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ nt: alertnotify=echo %%s | email -s &quot;CREDCOIN Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CREDCOIN is probably already running.</source>
-        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on CREDCOIN juba avatud.</translation>
+        <source>Cannot obtain a lock on data directory %s. CREDICOIN is probably already running.</source>
+        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on CREDICOIN juba avatud.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ nt: alertnotify=echo %%s | email -s &quot;CREDCOIN Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CREDCOIN will not work properly.</source>
-        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis CREDCOIN ei tööta korralikult</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CREDICOIN will not work properly.</source>
+        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis CREDICOIN ei tööta korralikult</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ nt: alertnotify=echo %%s | email -s &quot;CREDCOIN Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the CREDCOIN Wiki for SSL setup instructions)</source>
-        <translation>SSL valikud: (vaata CREDCOINi Wikist või SSL sätete juhendist)</translation>
+        <source>SSL options: (see the CREDICOIN Wiki for SSL setup instructions)</source>
+        <translation>SSL valikud: (vaata CREDICOINi Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ nt: alertnotify=echo %%s | email -s &quot;CREDCOIN Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CREDCOIN</source>
-        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab CREDCOINi uusimat versiooni</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CREDICOIN</source>
+        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab CREDICOINi uusimat versiooni</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart CREDCOIN to complete</source>
-        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita CREDCOIN</translation>
+        <source>Wallet needed to be rewritten: restart CREDICOIN to complete</source>
+        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita CREDICOIN</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ nt: alertnotify=echo %%s | email -s &quot;CREDCOIN Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. CREDCOIN is probably already running.</source>
-        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. CREDCOIN juba töötab.</translation>
+        <source>Unable to bind to %s on this computer. CREDICOIN is probably already running.</source>
+        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. CREDICOIN juba töötab.</translation>
     </message>
     <message>
         <location line="+64"/>

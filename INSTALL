@@ -1,9 +1,9 @@
-Building CREDCOIN
+Building CREDICOIN
 
-See doc/readme-qt.rst for instructions on building CREDCOIN-Qt,
+See doc/readme-qt.rst for instructions on building CREDICOIN-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of CREDCOIN.
+implementation of CREDICOIN.
 
-See doc/build-*.txt for instructions on building CREDCOIN,
+See doc/build-*.txt for instructions on building CREDICOIN,
 the intended-for-services, no-graphical-interface, reference
-implementation of CREDCOIN.
+implementation of CREDICOIN.

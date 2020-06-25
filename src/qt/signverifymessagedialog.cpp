@@ -24,11 +24,11 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a CREDCOIN address (e.g. MUB9h8ZnbMCxedQqsXSS5U7MCa8aaN4rbj)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a CREDICOIN address (e.g. MUB9h8ZnbMCxedQqsXSS5U7MCa8aaN4rbj)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a CREDCOIN address (e.g. MUB9h8ZnbMCxedQqsXSS5U7MCa8aaN4rbj)"));
-    ui->signatureIn_VM->setPlaceholderText(tr("Enter CREDCOIN signature"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a CREDICOIN address (e.g. MUB9h8ZnbMCxedQqsXSS5U7MCa8aaN4rbj)"));
+    ui->signatureIn_VM->setPlaceholderText(tr("Enter CREDICOIN signature"));
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);

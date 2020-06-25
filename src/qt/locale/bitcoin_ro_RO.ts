@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CREDCOIN</source>
-        <translation>Despre CREDCOIN</translation>
+        <source>About CREDICOIN</source>
+        <translation>Despre CREDICOIN</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CREDCOIN&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CREDCOIN&lt;/b&gt; versiunea</translation>
+        <source>&lt;b&gt;CREDICOIN&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CREDICOIN&lt;/b&gt; versiunea</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The CREDCOIN developers</source>
+        <source>The CREDICOIN developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your CREDCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele dumneavoastră CREDCOIN pentru a primi plăţi. Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
+        <source>These are your CREDICOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele dumneavoastră CREDICOIN pentru a primi plăţi. Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a CREDCOIN address</source>
+        <source>Sign a message to prove you own a CREDICOIN address</source>
         <translation>Semneaza mesajul pentru a dovedi ca detii aceasta adresa Bitocin</translation>
     </message>
     <message>
@@ -102,8 +102,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified CREDCOIN address</source>
-        <translation>Verifica mesajul pentru a te asigura ca a fost insemnat cu o adresa CREDCOIN specifica</translation>
+        <source>Verify a message to ensure it was signed with a specified CREDICOIN address</source>
+        <translation>Verifica mesajul pentru a te asigura ca a fost insemnat cu o adresa CREDICOIN specifica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your CREDCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your CREDICOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>CREDCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CREDCOINs from being stolen by malware infecting your computer.</source>
-        <translation>CREDCOIN se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate CREDCOINs dvs. de a fi furate de intentii rele.</translation>
+        <source>CREDICOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CREDICOINs from being stolen by malware infecting your computer.</source>
+        <translation>CREDICOIN se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate CREDICOINs dvs. de a fi furate de intentii rele.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CREDCOIN</source>
-        <translation>Informaţii despre CREDCOIN</translation>
+        <source>Show information about CREDICOIN</source>
+        <translation>Informaţii despre CREDICOIN</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a CREDCOIN address</source>
-        <translation>&amp;Trimiteţi CREDCOIN către o anumită adresă</translation>
+        <source>Send coins to a CREDICOIN address</source>
+        <translation>&amp;Trimiteţi CREDICOIN către o anumită adresă</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for CREDCOIN</source>
-        <translation>Modifică setările pentru CREDCOIN</translation>
+        <source>Modify configuration options for CREDICOIN</source>
+        <translation>Modifică setările pentru CREDICOIN</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>CREDCOIN</source>
-        <translation>CREDCOIN</translation>
+        <source>CREDICOIN</source>
+        <translation>CREDICOIN</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About CREDCOIN</source>
-        <translation>&amp;Despre CREDCOIN</translation>
+        <source>&amp;About CREDICOIN</source>
+        <translation>&amp;Despre CREDICOIN</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your CREDCOIN addresses to prove you own them</source>
+        <source>Sign messages with your CREDICOIN addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified CREDCOIN addresses</source>
+        <source>Verify messages to ensure they were signed with specified CREDICOIN addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>CREDCOIN client</source>
-        <translation>Client CREDCOIN</translation>
+        <source>CREDICOIN client</source>
+        <translation>Client CREDICOIN</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to CREDCOIN network</source>
-        <translation><numerusform>%n active connections to CREDCOIN network</numerusform><numerusform>%n active connections to CREDCOIN network</numerusform><numerusform>%n active connections to CREDCOIN network</numerusform></translation>
+        <source>%n active connection(s) to CREDICOIN network</source>
+        <translation><numerusform>%n active connections to CREDICOIN network</numerusform><numerusform>%n active connections to CREDICOIN network</numerusform><numerusform>%n active connections to CREDICOIN network</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,7 +647,7 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid CREDCOIN address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid CREDICOIN address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -662,7 +662,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. CREDCOIN can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. CREDICOIN can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CREDCOIN address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă CREDCOIN valabilă.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CREDICOIN address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă CREDICOIN valabilă.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>CREDCOIN-Qt</source>
-        <translation>CREDCOIN-Qt</translation>
+        <source>CREDICOIN-Qt</source>
+        <translation>CREDICOIN-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CREDCOIN after logging in to the system.</source>
-        <translation>Porneşte automat programul CREDCOIN la pornirea computerului.</translation>
+        <source>Automatically start CREDICOIN after logging in to the system.</source>
+        <translation>Porneşte automat programul CREDICOIN la pornirea computerului.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CREDCOIN on system login</source>
-        <translation>&amp;S Porneşte CREDCOIN la pornirea sistemului</translation>
+        <source>&amp;Start CREDICOIN on system login</source>
+        <translation>&amp;S Porneşte CREDICOIN la pornirea sistemului</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CREDCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului CREDCOIN. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
+        <source>Automatically open the CREDICOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului CREDICOIN. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CREDCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectare la reţeaua CREDCOIN folosind un proxy SOCKS (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
+        <source>Connect to the CREDICOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conectare la reţeaua CREDICOIN folosind un proxy SOCKS (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CREDCOIN.</source>
-        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea CREDCOIN.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CREDICOIN.</source>
+        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea CREDICOIN.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -931,12 +931,12 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de CREDCOIN.</translation>
+        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de CREDICOIN.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show CREDCOIN addresses in the transaction list or not.</source>
-        <translation>Vezi dacă adresele CREDCOIN sunt în lista de tranzacție sau nu</translation>
+        <source>Whether to show CREDICOIN addresses in the transaction list or not.</source>
+        <translation>Vezi dacă adresele CREDICOIN sunt în lista de tranzacție sau nu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -987,13 +987,13 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CREDCOIN.</source>
+        <source>This setting will take effect after restarting CREDICOIN.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa CREDCOIN pe care a-ti specificat-o este invalida</translation>
+        <translation>Adresa CREDICOIN pe care a-ti specificat-o este invalida</translation>
     </message>
 </context>
 <context>
@@ -1006,8 +1006,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CREDCOIN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua CREDCOIN după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CREDICOIN network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua CREDICOIN după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1060,7 +1060,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start CREDCOIN: click-to-pay handler</source>
+        <source>Cannot start CREDICOIN: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1210,8 +1210,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CREDCOIN-Qt help message to get a list with possible CREDCOIN command-line options.</source>
-        <translation>Arata mesajul de ajutor CREDCOIN-QT pentru a obtine o lista cu posibilele optiuni ale comenzilor CREDCOIN</translation>
+        <source>Show the CREDICOIN-Qt help message to get a list with possible CREDICOIN command-line options.</source>
+        <translation>Arata mesajul de ajutor CREDICOIN-QT pentru a obtine o lista cu posibilele optiuni ale comenzilor CREDICOIN</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1230,13 +1230,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>CREDCOIN - Debug window</source>
-        <translation>CREDCOIN-Fereastra pentru debug</translation>
+        <source>CREDICOIN - Debug window</source>
+        <translation>CREDICOIN-Fereastra pentru debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CREDCOIN Core</source>
-        <translation>CREDCOIN Core</translation>
+        <source>CREDICOIN Core</source>
+        <translation>CREDICOIN Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1245,7 +1245,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CREDCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the CREDICOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Deschide logurile debug din directorul curent. Aceasta poate dura cateva secunde pentru fisierele mai mari</translation>
     </message>
     <message>
@@ -1255,8 +1255,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the CREDCOIN RPC console.</source>
-        <translation>Bun venit la consola CREDCOIN RPC</translation>
+        <source>Welcome to the CREDICOIN RPC console.</source>
+        <translation>Bun venit la consola CREDICOIN RPC</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1281,7 +1281,7 @@ Address: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Trimite CREDCOIN</translation>
+        <translation>Trimite CREDICOIN</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1331,7 +1331,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Confirmaţi trimiterea de CREDCOIN</translation>
+        <translation>Confirmaţi trimiterea de CREDICOIN</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1376,7 +1376,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de CREDCOIN din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
+        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de CREDICOIN din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
     </message>
 </context>
 <context>
@@ -1439,8 +1439,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CREDCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă CREDCOIN (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CREDICOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduceţi o adresă CREDICOIN (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1463,7 +1463,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă CREDCOIN (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Introduceţi o adresă CREDICOIN (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1504,8 +1504,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CREDCOIN address</source>
-        <translation>Semneaza mesajul pentru a dovedi ca detii acesta adresa CREDCOIN</translation>
+        <source>Sign the message to prove you own this CREDICOIN address</source>
+        <translation>Semneaza mesajul pentru a dovedi ca detii acesta adresa CREDICOIN</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1536,12 +1536,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă CREDCOIN (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Introduceţi o adresă CREDICOIN (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CREDCOIN address</source>
-        <translation>Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa CREDCOIN specifica</translation>
+        <source>Verify the message to ensure it was signed with the specified CREDICOIN address</source>
+        <translation>Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa CREDICOIN specifica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1556,8 +1556,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CREDCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceţi o adresă CREDCOIN (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CREDICOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduceţi o adresă CREDICOIN (de exemplu: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1566,7 +1566,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CREDCOIN signature</source>
+        <source>Enter CREDICOIN signature</source>
         <translation>Introduce semnatura bitocin</translation>
     </message>
     <message>
@@ -1640,7 +1640,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The CREDCOIN developers</source>
+        <source>The CREDICOIN developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1726,8 +1726,8 @@ Address: %4
         <location line="+45"/>
         <location line="+17"/>
         <location line="+30"/>
-        <source>Credit</source>
-        <translation>Credit</translation>
+        <source>CREDIit</source>
+        <translation>CREDIit</translation>
     </message>
     <message numerus="yes">
         <location line="-102"/>
@@ -1775,7 +1775,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Monedele CREDCOIN generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
+        <translation>Monedele CREDICOIN generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2128,7 +2128,7 @@ Address: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Trimite CREDCOIN</translation>
+        <translation>Trimite CREDICOIN</translation>
     </message>
 </context>
 <context>
@@ -2178,8 +2178,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>CREDCOIN version</source>
-        <translation>versiunea CREDCOIN</translation>
+        <source>CREDICOIN version</source>
+        <translation>versiunea CREDICOIN</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2188,8 +2188,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or CREDCOIN</source>
-        <translation>Trimite comanda la -server sau CREDCOIN</translation>
+        <source>Send command to -server or CREDICOIN</source>
+        <translation>Trimite comanda la -server sau CREDICOIN</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2208,12 +2208,12 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: CREDCOIN.conf)</source>
-        <translation>Specifica-ți configurația fisierului (in mod normal: CREDCOIN.conf)</translation>
+        <source>Specify configuration file (default: CREDICOIN.conf)</source>
+        <translation>Specifica-ți configurația fisierului (in mod normal: CREDICOIN.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: CREDCOIN.pid)</source>
+        <source>Specify pid file (default: CREDICOIN.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2292,13 +2292,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=CREDCOINrpc
+rpcuser=CREDICOINrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CREDCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CREDICOIN Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2314,7 +2314,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CREDCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CREDCOIN is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CREDICOIN is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2359,7 +2359,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CREDCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CREDCOIN will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CREDICOIN will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2609,8 +2609,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CREDCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the CREDCOIN Wiki for SSL setup instructions)</source>
-        <translation>Optiuni SSl (vezi CREDCOIN wiki pentru intructiunile de instalare)</translation>
+        <source>SSL options: (see the CREDICOIN Wiki for SSL setup instructions)</source>
+        <translation>Optiuni SSl (vezi CREDICOIN wiki pentru intructiunile de instalare)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2801,13 +2801,13 @@ for example: alertnotify=echo %%s | mail -s &quot;CREDCOIN Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CREDCOIN</source>
-        <translation>Eroare incarcare wallet.dat: Portofelul are nevoie de o versiune CREDCOIN mai noua</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CREDICOIN</source>
+        <translation>Eroare incarcare wallet.dat: Portofelul are nevoie de o versiune CREDICOIN mai noua</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart CREDCOIN to complete</source>
-        <translation>Portofelul trebuie rescris: restarteaza aplicatia CREDCOIN pentru a face asta.</translation>
+        <source>Wallet needed to be rewritten: restart CREDICOIN to complete</source>
+        <translation>Portofelul trebuie rescris: restarteaza aplicatia CREDICOIN pentru a face asta.</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2868,8 +2868,8 @@ details suggestions history
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. CREDCOIN is probably already running.</source>
-        <translation>Imposibilitatea de a lega la% s pe acest computer. CREDCOIN este, probabil, deja în execuție.</translation>
+        <source>Unable to bind to %s on this computer. CREDICOIN is probably already running.</source>
+        <translation>Imposibilitatea de a lega la% s pe acest computer. CREDICOIN este, probabil, deja în execuție.</translation>
     </message>
     <message>
         <location line="+64"/>

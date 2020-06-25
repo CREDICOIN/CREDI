@@ -3,11 +3,11 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>CREDCOIN.icns</string>
+	<string>CREDICOIN.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>$VERSION, Copyright © 2014 The CREDCOIN developers</string>
+	<string>$VERSION, Copyright © 2014 The CREDICOIN developers</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$VERSION</string>
 	<key>CFBundleVersion</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>CREDCOIN-Qt</string>
+	<string>CREDICOIN-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.CREDCOIN.CREDCOIN-Qt</string>
+	<string>org.CREDICOIN.CREDICOIN-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.CREDCOIN.MNDtonitePayment</string>
+            <string>org.CREDICOIN.MNDtonitePayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>CREDCOIN</string>
+              <string>CREDICOIN</string>
             </array>
           </dict>
         </array>

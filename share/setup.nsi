@@ -1,13 +1,13 @@
-Name CREDCOIN
+Name CREDICOIN
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define COMPANY "CREDCOIN project"
+!define COMPANY "CREDICOIN project"
 !define VERSION 0.9.0.0
-!define URL http://www.CREDCOIN.org/
+!define URL http://www.CREDICOIN.org/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/bitcoin.ico"
@@ -19,8 +19,8 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER CREDCOIN
-!define MUI_FINISHPAGE_RUN $INSTDIR\CREDCOIN-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER CREDICOIN
+!define MUI_FINISHPAGE_RUN $INSTDIR\CREDICOIN-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -45,14 +45,14 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile CREDCOIN-0.9.0.0-win32-setup.exe
-InstallDir $PROGRAMFILES\CREDCOIN
+OutFile CREDICOIN-0.9.0.0-win32-setup.exe
+InstallDir $PROGRAMFILES\CREDICOIN
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion 0.9.0.0
-VIAddVersionKey ProductName CREDCOIN
+VIAddVersionKey ProductName CREDICOIN
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -66,18 +66,18 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ../release/CREDCOIN-qt.exe
+    File ../release/CREDICOIN-qt.exe
     File /oname=COPYING.txt ../COPYING
     File /oname=readme.txt ../doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File ../src/CREDCOIN.exe
+    File ../src/CREDICOIN.exe
     SetOutPath $INSTDIR\src
     File /r /x *.exe /x *.o ../src\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
     # Remove old wxwidgets-based-bitcoin executable and locales:
-    Delete /REBOOTOK $INSTDIR\CREDCOIN.exe
+    Delete /REBOOTOK $INSTDIR\CREDICOIN.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -87,8 +87,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\CREDCOIN.lnk" $INSTDIR\CREDCOIN-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall CREDCOIN.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\CREDICOIN.lnk" $INSTDIR\CREDICOIN-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall CREDICOIN.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -98,10 +98,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "CREDCOIN" "URL Protocol" ""
-    WriteRegStr HKCR "CREDCOIN" "" "URL:CREDCOIN"
-    WriteRegStr HKCR "CREDCOIN\DefaultIcon" "" $INSTDIR\CREDCOIN-qt.exe
-    WriteRegStr HKCR "CREDCOIN\shell\open\command" "" '"$INSTDIR\CREDCOIN-qt.exe" "%1"'
+    WriteRegStr HKCR "CREDICOIN" "URL Protocol" ""
+    WriteRegStr HKCR "CREDICOIN" "" "URL:CREDICOIN"
+    WriteRegStr HKCR "CREDICOIN\DefaultIcon" "" $INSTDIR\CREDICOIN-qt.exe
+    WriteRegStr HKCR "CREDICOIN\shell\open\command" "" '"$INSTDIR\CREDICOIN-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -119,7 +119,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\CREDCOIN-qt.exe
+    Delete /REBOOTOK $INSTDIR\CREDICOIN-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -129,9 +129,9 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall CREDCOIN.lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\CREDCOIN.lnk"
-    Delete /REBOOTOK "$SMSTARTUP\CREDCOIN.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall CREDICOIN.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\CREDICOIN.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\CREDICOIN.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "CREDCOIN"
+    DeleteRegKey HKCR "CREDICOIN"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CREDCOIN</source>
-        <translation>Über CREDCOIN</translation>
+        <source>About CREDICOIN</source>
+        <translation>Über CREDICOIN</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CREDCOIN&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CREDCOIN&lt;/b&gt;-Version</translation>
+        <source>&lt;b&gt;CREDICOIN&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CREDICOIN&lt;/b&gt;-Version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The CREDCOIN developers</source>
-        <translation>Die CREDCOINentwickler</translation>
+        <source>The CREDICOIN developers</source>
+        <translation>Die CREDICOINentwickler</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your CREDCOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dies sind Ihre CREDCOIN-Adressen zum Empfangen von Zahlungen. Es steht Ihnen frei, jedem Absender eine Andere mitzuteilen, um einen besseren Überblick über eingehende Zahlungen zu erhalten.</translation>
+        <source>These are your CREDICOIN addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dies sind Ihre CREDICOIN-Adressen zum Empfangen von Zahlungen. Es steht Ihnen frei, jedem Absender eine Andere mitzuteilen, um einen besseren Überblick über eingehende Zahlungen zu erhalten.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a CREDCOIN address</source>
-        <translation>Eine Nachricht signieren, um den Besitz einer CREDCOIN-Adresse zu beweisen</translation>
+        <source>Sign a message to prove you own a CREDICOIN address</source>
+        <translation>Eine Nachricht signieren, um den Besitz einer CREDICOIN-Adresse zu beweisen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified CREDCOIN address</source>
-        <translation>Eine Nachricht verifizieren, um sicherzustellen, dass diese mit einer angegebenen CREDCOIN-Adresse signiert wurde</translation>
+        <source>Verify a message to ensure it was signed with a specified CREDICOIN address</source>
+        <translation>Eine Nachricht verifizieren, um sicherzustellen, dass diese mit einer angegebenen CREDICOIN-Adresse signiert wurde</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your CREDCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind Ihre CREDCOIN-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie CREDCOINs überweisen.</translation>
+        <source>These are your CREDICOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind Ihre CREDICOIN-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie CREDICOINs überweisen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -138,7 +138,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>CREDCOINs &amp;überweisen</translation>
+        <translation>CREDICOINs &amp;überweisen</translation>
     </message>
     <message>
         <location line="+260"/>
@@ -249,7 +249,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DARKCOINS&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie Ihre Brieftasche verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;alle Ihre CREDCOINs verlieren&lt;/b&gt;!</translation>
+        <translation>Warnung: Wenn Sie Ihre Brieftasche verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;alle Ihre CREDICOINs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-56"/>
-        <source>CREDCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CREDCOINs from being stolen by malware infecting your computer.</source>
-        <translation>CREDCOIN wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Verschlüsselung Ihrer Brieftasche nicht vollständig vor Diebstahl Ihrer CREDCOINs durch Schadsoftware schützt, die Ihren Computer befällt.</translation>
+        <source>CREDICOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CREDICOINs from being stolen by malware infecting your computer.</source>
+        <translation>CREDICOIN wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Verschlüsselung Ihrer Brieftasche nicht vollständig vor Diebstahl Ihrer CREDICOINs durch Schadsoftware schützt, die Ihren Computer befällt.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CREDCOIN</source>
-        <translation>Informationen über CREDCOIN anzeigen</translation>
+        <source>Show information about CREDICOIN</source>
+        <translation>Informationen über CREDICOIN anzeigen</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,12 +419,12 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a CREDCOIN address</source>
-        <translation>CREDCOINs an eine CREDCOIN-Adresse überweisen</translation>
+        <source>Send coins to a CREDICOIN address</source>
+        <translation>CREDICOINs an eine CREDICOIN-Adresse überweisen</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for CREDCOIN</source>
+        <source>Modify configuration options for CREDICOIN</source>
         <translation>Die Konfiguration des Clients bearbeiten</translation>
     </message>
     <message>
@@ -455,8 +455,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>CREDCOIN</source>
-        <translation>CREDCOIN</translation>
+        <source>CREDICOIN</source>
+        <translation>CREDICOIN</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About CREDCOIN</source>
-        <translation>&amp;Über CREDCOIN</translation>
+        <source>&amp;About CREDICOIN</source>
+        <translation>&amp;Über CREDICOIN</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your CREDCOIN addresses to prove you own them</source>
-        <translation>Nachrichten signieren, um den Besitz Ihrer CREDCOIN-Adressen zu beweisen</translation>
+        <source>Sign messages with your CREDICOIN addresses to prove you own them</source>
+        <translation>Nachrichten signieren, um den Besitz Ihrer CREDICOIN-Adressen zu beweisen</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified CREDCOIN addresses</source>
-        <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen CREDCOIN-Adressen signiert wurden</translation>
+        <source>Verify messages to ensure they were signed with specified CREDICOIN addresses</source>
+        <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen CREDICOIN-Adressen signiert wurden</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+47"/>
-        <source>CREDCOIN client</source>
-        <translation>CREDCOIN-Client</translation>
+        <source>CREDICOIN client</source>
+        <translation>CREDICOIN-Client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to CREDCOIN network</source>
-        <translation><numerusform>%n aktive Verbindung zum CREDCOIN-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum CREDCOIN-Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to CREDICOIN network</source>
+        <translation><numerusform>%n aktive Verbindung zum CREDICOIN-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum CREDICOIN-Netzwerk</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -607,7 +607,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Die Transaktion übersteigt das Größenlimit. Sie können sie trotzdem senden, wenn Sie eine zusätzliche Transaktionsgebühr in Höhe von %1 zahlen. Diese wird an die Knoten verteilt, die Ihre Transaktion bearbeiten und unterstützt damit das CREDCOIN-Netzwerk. Möchten Sie die Gebühr bezahlen?</translation>
+        <translation>Die Transaktion übersteigt das Größenlimit. Sie können sie trotzdem senden, wenn Sie eine zusätzliche Transaktionsgebühr in Höhe von %1 zahlen. Diese wird an die Knoten verteilt, die Ihre Transaktion bearbeiten und unterstützt damit das CREDICOIN-Netzwerk. Möchten Sie die Gebühr bezahlen?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -655,8 +655,8 @@ Adresse: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid CREDCOIN address or malformed URI parameters.</source>
-        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige CREDCOIN-Adresse oder fehlerhafte URI-Parameter verursacht werden.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CREDICOIN address or malformed URI parameters.</source>
+        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige CREDICOIN-Adresse oder fehlerhafte URI-Parameter verursacht werden.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. CREDCOIN can no longer continue safely and will quit.</source>
-        <translation>Ein schwerer Fehler ist aufgetreten. CREDCOIN kann nicht stabil weiter ausgeführt werden und wird beendet.</translation>
+        <source>A fatal error occurred. CREDICOIN can no longer continue safely and will quit.</source>
+        <translation>Ein schwerer Fehler ist aufgetreten. CREDICOIN kann nicht stabil weiter ausgeführt werden und wird beendet.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CREDCOIN address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige CREDCOIN-Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CREDICOIN address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige CREDICOIN-Adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Adresse: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>CREDCOIN-Qt</source>
-        <translation>CREDCOIN-Qt</translation>
+        <source>CREDICOIN-Qt</source>
+        <translation>CREDICOIN-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CREDCOIN after logging in to the system.</source>
-        <translation>CREDCOIN nach der Anmeldung am System automatisch ausführen.</translation>
+        <source>Automatically start CREDICOIN after logging in to the system.</source>
+        <translation>CREDICOIN nach der Anmeldung am System automatisch ausführen.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CREDCOIN on system login</source>
-        <translation>&amp;Starte CREDCOIN nach Systemanmeldung</translation>
+        <source>&amp;Start CREDICOIN on system login</source>
+        <translation>&amp;Starte CREDICOIN nach Systemanmeldung</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CREDCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den CREDCOIN-Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
+        <source>Automatically open the CREDICOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den CREDICOIN-Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CREDCOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Über einen SOCKS-Proxy mit dem CREDCOIN-Netzwerk verbinden (z.B. beim Verbinden über Tor).</translation>
+        <source>Connect to the CREDICOIN network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Über einen SOCKS-Proxy mit dem CREDICOIN-Netzwerk verbinden (z.B. beim Verbinden über Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CREDCOIN.</source>
-        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von CREDCOIN aktiv.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CREDICOIN.</source>
+        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von CREDICOIN aktiv.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -939,12 +939,12 @@ Adresse: %4</translation>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von CREDCOINs angezeigt werden soll.</translation>
+        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von CREDICOINs angezeigt werden soll.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show CREDCOIN addresses in the transaction list or not.</source>
-        <translation>Legt fest, ob CREDCOIN-Adressen in der Transaktionsliste angezeigt werden.</translation>
+        <source>Whether to show CREDICOIN addresses in the transaction list or not.</source>
+        <translation>Legt fest, ob CREDICOIN-Adressen in der Transaktionsliste angezeigt werden.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Adresse: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CREDCOIN.</source>
-        <translation>Diese Einstellung wird erst nach einem Neustart von CREDCOIN aktiv.</translation>
+        <source>This setting will take effect after restarting CREDICOIN.</source>
+        <translation>Diese Einstellung wird erst nach einem Neustart von CREDICOIN aktiv.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,8 +1014,8 @@ Adresse: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CREDCOIN network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Brieftasche wird automatisch synchronisiert, nachdem eine Verbindung zum CREDCOIN-Netzwerk hergestellt wurde. Dieser Prozess ist jedoch derzeit noch nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CREDICOIN network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Brieftasche wird automatisch synchronisiert, nachdem eine Verbindung zum CREDICOIN-Netzwerk hergestellt wurde. Dieser Prozess ist jedoch derzeit noch nicht abgeschlossen.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1068,8 +1068,8 @@ Adresse: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start CREDCOIN: click-to-pay handler</source>
-        <translation>&quot;CREDCOIN: Klicken-zum-Bezahlen&quot;-Handler konnte nicht gestartet werden</translation>
+        <source>Cannot start CREDICOIN: click-to-pay handler</source>
+        <translation>&quot;CREDICOIN: Klicken-zum-Bezahlen&quot;-Handler konnte nicht gestartet werden</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CREDCOIN-Qt help message to get a list with possible CREDCOIN command-line options.</source>
-        <translation>Zeige die CREDCOIN-Qt-Hilfsnachricht, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten.</translation>
+        <source>Show the CREDICOIN-Qt help message to get a list with possible CREDICOIN command-line options.</source>
+        <translation>Zeige die CREDICOIN-Qt-Hilfsnachricht, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>CREDCOIN - Debug window</source>
-        <translation>CREDCOIN - Debugfenster</translation>
+        <source>CREDICOIN - Debug window</source>
+        <translation>CREDICOIN - Debugfenster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CREDCOIN Core</source>
-        <translation>CREDCOIN-Kern</translation>
+        <source>CREDICOIN Core</source>
+        <translation>CREDICOIN-Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CREDCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffnet die CREDCOIN-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
+        <source>Open the CREDICOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öffnet die CREDICOIN-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the CREDCOIN RPC console.</source>
-        <translation>Willkommen in der CREDCOIN-RPC-Konsole.</translation>
+        <source>Welcome to the CREDICOIN RPC console.</source>
+        <translation>Willkommen in der CREDICOIN-RPC-Konsole.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1289,7 +1289,7 @@ Adresse: %4</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>CREDCOINs überweisen</translation>
+        <translation>CREDICOINs überweisen</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1384,7 +1384,7 @@ Adresse: %4</translation>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige CREDCOINs aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die CREDCOINs dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
+        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige CREDICOINs aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die CREDICOINs dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
     </message>
 </context>
 <context>
@@ -1447,8 +1447,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CREDCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>CREDCOIN-Adresse eingeben (z.B. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CREDICOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>CREDICOIN-Adresse eingeben (z.B. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CREDCOIN address</source>
-        <translation>Die Nachricht signieren, um den Besitz dieser CREDCOIN-Adresse zu beweisen</translation>
+        <source>Sign the message to prove you own this CREDICOIN address</source>
+        <translation>Die Nachricht signieren, um den Besitz dieser CREDICOIN-Adresse zu beweisen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CREDCOIN address</source>
-        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen CREDCOIN-Adresse signiert wurde</translation>
+        <source>Verify the message to ensure it was signed with the specified CREDICOIN address</source>
+        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen CREDICOIN-Adresse signiert wurde</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Adresse: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CREDCOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>CREDCOIN-Adresse eingeben (z.B. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a CREDICOIN address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>CREDICOIN-Adresse eingeben (z.B. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CREDCOIN signature</source>
-        <translation>CREDCOIN-Signatur eingeben</translation>
+        <source>Enter CREDICOIN signature</source>
+        <translation>CREDICOIN-Signatur eingeben</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1648,8 +1648,8 @@ Adresse: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The CREDCOIN developers</source>
-        <translation>Die CREDCOINentwickler</translation>
+        <source>The CREDICOIN developers</source>
+        <translation>Die CREDICOINentwickler</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1734,7 +1734,7 @@ Adresse: %4</translation>
         <location line="+45"/>
         <location line="+17"/>
         <location line="+30"/>
-        <source>Credit</source>
+        <source>CREDIit</source>
         <translation>Gutschrift</translation>
     </message>
     <message numerus="yes">
@@ -1783,7 +1783,7 @@ Adresse: %4</translation>
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generierte CREDCOINs müssen 120 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block generierten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in &quot;nicht angenommen&quot; geändert und der Betrag wird nicht verfügbar werden. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich generiert.</translation>
+        <translation>Generierte CREDICOINs müssen 120 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block generierten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in &quot;nicht angenommen&quot; geändert und der Betrag wird nicht verfügbar werden. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich generiert.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2136,7 +2136,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>CREDCOINs überweisen</translation>
+        <translation>CREDICOINs überweisen</translation>
     </message>
 </context>
 <context>
@@ -2186,8 +2186,8 @@ Adresse: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>CREDCOIN version</source>
-        <translation>CREDCOIN-Version</translation>
+        <source>CREDICOIN version</source>
+        <translation>CREDICOIN-Version</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2196,8 +2196,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or CREDCOIN</source>
-        <translation>Befehl an -server oder CREDCOIN senden</translation>
+        <source>Send command to -server or CREDICOIN</source>
+        <translation>Befehl an -server oder CREDICOIN senden</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: CREDCOIN.conf)</source>
-        <translation>Konfigurationsdatei festlegen (Standard: CREDCOIN.conf)</translation>
+        <source>Specify configuration file (default: CREDICOIN.conf)</source>
+        <translation>Konfigurationsdatei festlegen (Standard: CREDICOIN.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: CREDCOIN.pid)</source>
-        <translation>PID-Datei festlegen (Standard: CREDCOIN.pid)</translation>
+        <source>Specify pid file (default: CREDICOIN.pid)</source>
+        <translation>PID-Datei festlegen (Standard: CREDICOIN.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,24 +2299,24 @@ Adresse: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=CREDCOINrpc
+rpcuser=CREDICOINrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CREDCOIN Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CREDICOIN Alert&quot; admin@foo.com
 </source>
         <translation>%s, Sie müssen den Wert rpcpasswort in dieser Konfigurationsdatei angeben:
 %s
 Es wird empfohlen das folgende Zufallspasswort zu verwenden:
-rpcuser=CREDCOINrpc
+rpcuser=CREDICOINrpc
 rpcpassword=%s
 (Sie müssen sich dieses Passwort nicht merken!)
 Der Benutzername und das Passwort dürfen NICHT identisch sein.
 Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.
 Es wird ebenfalls empfohlen alertnotify anzugeben, um im Problemfall benachrichtig zu werden;
-zum Beispiel: alertnotify=echo %%s | mail -s \&quot;CREDCOIN Alert\&quot; admin@foo.com
+zum Beispiel: alertnotify=echo %%s | mail -s \&quot;CREDICOIN Alert\&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,13 +2331,13 @@ zum Beispiel: alertnotify=echo %%s | mail -s \&quot;CREDCOIN Alert\&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CREDCOIN is probably already running.</source>
-        <translation>Datenverzeichnis %s kann nicht gesperrt werden. Evtl. wurde CREDCOIN bereits gestartet.</translation>
+        <source>Cannot obtain a lock on data directory %s. CREDICOIN is probably already running.</source>
+        <translation>Datenverzeichnis %s kann nicht gesperrt werden. Evtl. wurde CREDICOIN bereits gestartet.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Die Transaktion wurde abgelehnt! Dies kann passieren, wenn einige CREDCOINs aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die CREDCOINs dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
+        <translation>Fehler: Die Transaktion wurde abgelehnt! Dies kann passieren, wenn einige CREDICOINs aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die CREDICOINs dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2376,8 +2376,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \&quot;CREDCOIN Alert\&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CREDCOIN will not work properly.</source>
-        <translation>Warnung: Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da CREDCOIN ansonsten nicht ordnungsgemäß funktionieren wird!</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CREDICOIN will not work properly.</source>
+        <translation>Warnung: Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da CREDICOIN ansonsten nicht ordnungsgemäß funktionieren wird!</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2517,7 +2517,7 @@ zum Beispiel: alertnotify=echo %%s | mail -s \&quot;CREDCOIN Alert\&quot; admin@
     <message>
         <location line="+1"/>
         <source>Generate coins (default: 0)</source>
-        <translation>CREDCOINs generieren (Standard: 0)</translation>
+        <translation>CREDICOINs generieren (Standard: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2626,8 +2626,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \&quot;CREDCOIN Alert\&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the CREDCOIN Wiki for SSL setup instructions)</source>
-        <translation>SSL-Optionen: (siehe CREDCOIN-Wiki für SSL-Installationsanweisungen)</translation>
+        <source>SSL options: (see the CREDICOIN Wiki for SSL setup instructions)</source>
+        <translation>SSL-Optionen: (siehe CREDICOIN-Wiki für SSL-Installationsanweisungen)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ zum Beispiel: alertnotify=echo %%s | mail -s \&quot;CREDCOIN Alert\&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CREDCOIN</source>
-        <translation>Fehler beim Laden von wallet.dat: Brieftasche benötigt neuere Version von CREDCOIN</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CREDICOIN</source>
+        <translation>Fehler beim Laden von wallet.dat: Brieftasche benötigt neuere Version von CREDICOIN</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart CREDCOIN to complete</source>
-        <translation>Brieftasche musste neu geschrieben werden: Starten Sie CREDCOIN zur Fertigstellung neu</translation>
+        <source>Wallet needed to be rewritten: restart CREDICOIN to complete</source>
+        <translation>Brieftasche musste neu geschrieben werden: Starten Sie CREDICOIN zur Fertigstellung neu</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \&quot;CREDCOIN Alert\&quot; admin@
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. CREDCOIN is probably already running.</source>
-        <translation>Kann auf diesem Computer nicht an %s binden. Evtl. wurde CREDCOIN bereits gestartet.</translation>
+        <source>Unable to bind to %s on this computer. CREDICOIN is probably already running.</source>
+        <translation>Kann auf diesem Computer nicht an %s binden. Evtl. wurde CREDICOIN bereits gestartet.</translation>
     </message>
     <message>
         <location line="+64"/>

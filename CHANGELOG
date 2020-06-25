@@ -1,0 +1,4 @@
+02/01/2016 - Update DNS Seed Nodes
+
++ Added Seed Nodes node1.CREDICOIN.xyz, node2.CREDICOIN.xyz, node3.CREDICOIN.xyz, mnd.blockpioneers.info
+- Removed pnSeed Nodes

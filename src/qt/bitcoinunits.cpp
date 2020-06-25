@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("CRED");
-    case mBTC: return QString("mCRED");
-    case uBTC: return QString::fromUtf8("μCRED");
+    case BTC: return QString("CREDI");
+    case mBTC: return QString("mCREDI");
+    case uBTC: return QString::fromUtf8("μCREDI");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("CREDCOINs");
-    case mBTC: return QString("Milli-CREDCOINs (1 / 1,000)");
-    case uBTC: return QString("Micro-CREDCOINs (1 / 1,000,000)");
+    case BTC: return QString("CREDICOINs");
+    case mBTC: return QString("Milli-CREDICOINs (1 / 1,000)");
+    case uBTC: return QString("Micro-CREDICOINs (1 / 1,000,000)");
     default: return QString("???");
     }
 }

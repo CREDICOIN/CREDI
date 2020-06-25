@@ -25,16 +25,16 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
 {
     QList<TransactionRecord> parts;
     int64 nTime = wtx.GetTxTime();
-    int64 nCredit = wtx.GetCredit(true);
+    int64 nCREDIit = wtx.GetCREDIit(true);
     int64 nDebit = wtx.GetDebit();
-    int64 nNet = nCredit - nDebit;
+    int64 nNet = nCREDIit - nDebit;
     uint256 hash = wtx.GetHash();
     std::map<std::string, std::string> mapValue = wtx.mapValue;
 
     if (nNet > 0 || wtx.IsCoinBase())
     {
         //
-        // Credit
+        // CREDIit
         //
         BOOST_FOREACH(const CTxOut& txout, wtx.vout)
         {
@@ -43,7 +43,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                 TransactionRecord sub(hash, nTime);
                 CTxDestination address;
                 sub.idx = parts.size(); // sequence number
-                sub.credit = txout.nValue;
+                sub.CREDIit = txout.nValue;
                 if (ExtractDestination(txout.scriptPubKey, address) && IsMine(*wallet, address))
                 {
                     // Received by Bitcoin Address
@@ -82,7 +82,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
             int64 nChange = wtx.GetChange();
 
             parts.append(TransactionRecord(hash, nTime, TransactionRecord::SendToSelf, "",
-                            -(nDebit - nChange), nCredit - nChange));
+                            -(nDebit - nChange), nCREDIit - nChange));
         }
         else if (fAllFromMe)
         {
@@ -194,8 +194,8 @@ void TransactionRecord::updateStatus(const CWalletTx &wtx)
     // For generated transactions, determine maturity
     if(type == TransactionRecord::Generated)
     {
-        int64 nCredit = wtx.GetCredit(true);
-        if (nCredit == 0)
+        int64 nCREDIit = wtx.GetCREDIit(true);
+        if (nCREDIit == 0)
         {
             status.maturity = TransactionStatus::Immature;
 

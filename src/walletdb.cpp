@@ -53,25 +53,25 @@ bool CWalletDB::WriteAccountingEntry(const CAccountingEntry& acentry)
     return WriteAccountingEntry(++nAccountingEntryNumber, acentry);
 }
 
-int64 CWalletDB::GetAccountCreditDebit(const string& strAccount)
+int64 CWalletDB::GetAccountCREDIitDebit(const string& strAccount)
 {
     list<CAccountingEntry> entries;
-    ListAccountCreditDebit(strAccount, entries);
+    ListAccountCREDIitDebit(strAccount, entries);
 
-    int64 nCreditDebit = 0;
+    int64 nCREDIitDebit = 0;
     BOOST_FOREACH (const CAccountingEntry& entry, entries)
-        nCreditDebit += entry.nCreditDebit;
+        nCREDIitDebit += entry.nCREDIitDebit;
 
-    return nCreditDebit;
+    return nCREDIitDebit;
 }
 
-void CWalletDB::ListAccountCreditDebit(const string& strAccount, list<CAccountingEntry>& entries)
+void CWalletDB::ListAccountCREDIitDebit(const string& strAccount, list<CAccountingEntry>& entries)
 {
     bool fAllAccounts = (strAccount == "*");
 
     Dbc* pcursor = GetCursor();
     if (!pcursor)
-        throw runtime_error("CWalletDB::ListAccountCreditDebit() : cannot create DB cursor");
+        throw runtime_error("CWalletDB::ListAccountCREDIitDebit() : cannot create DB cursor");
     unsigned int fFlags = DB_SET_RANGE;
     loop
     {
@@ -87,7 +87,7 @@ void CWalletDB::ListAccountCreditDebit(const string& strAccount, list<CAccountin
         else if (ret != 0)
         {
             pcursor->close();
-            throw runtime_error("CWalletDB::ListAccountCreditDebit() : error scanning DB");
+            throw runtime_error("CWalletDB::ListAccountCREDIitDebit() : error scanning DB");
         }
 
         // Unserialize
@@ -127,7 +127,7 @@ CWalletDB::ReorderTransactions(CWallet* pwallet)
         txByTime.insert(make_pair(wtx->nTimeReceived, TxPair(wtx, (CAccountingEntry*)0)));
     }
     list<CAccountingEntry> acentries;
-    ListAccountCreditDebit("", acentries);
+    ListAccountCREDIitDebit("", acentries);
     BOOST_FOREACH(CAccountingEntry& entry, acentries)
     {
         txByTime.insert(make_pair(entry.nTime, TxPair((CWalletTx*)0, &entry)));

@@ -113,10 +113,10 @@ OBJS= \
     obj/shavite.o \
     obj/simd.o 
 
-all: CREDCOIN.exe
+all: CREDICOIN.exe
 
-test check: test_CREDCOIN.exe FORCE
-	test_CREDCOIN.exe
+test check: test_CREDICOIN.exe FORCE
+	test_CREDICOIN.exe
 
 #
 # LevelDB support
@@ -136,7 +136,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(CFLAGS) -fpermissive -o $@ $<
 
-CREDCOIN.exe: $(OBJS:obj/%=obj/%)
+CREDICOIN.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -144,11 +144,11 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(CFLAGS) -o $@ $<
 
-test_CREDCOIN.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_CREDICOIN.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework$(BOOST_SUFFIX) $(LIBS)
 
 clean:
-	rm -f CREDCOIN.exe test_CREDCOIN.exe
+	rm -f CREDICOIN.exe test_CREDICOIN.exe
 	rm -f obj/*
 	rm -f obj-test/*
 	cd leveldb && $(MAKE) TARGET_OS=NATIVE_WINDOWS clean && cd ..

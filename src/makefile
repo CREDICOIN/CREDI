@@ -155,10 +155,10 @@ OBJS= \
     obj/keccak.o\
     obj/skein.o 
 
-all: CREDCOIN
+all: CREDICOIN
 
-test check: test_CREDCOIN FORCE
-	./test_CREDCOIN
+test check: test_CREDICOIN FORCE
+	./test_CREDICOIN
 
 #
 # LevelDB support
@@ -200,7 +200,7 @@ obj/%.o: %.c
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-CREDCOIN: $(OBJS:obj/%=obj/%)
+CREDICOIN: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -212,11 +212,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_CREDCOIN: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_CREDICOIN: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f CREDCOIN test_CREDCOIN
+	-rm -f CREDICOIN test_CREDICOIN
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

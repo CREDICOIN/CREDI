@@ -6,7 +6,7 @@ Release Process
 ###update (commit) version in sources
 
 
-	CREDCOIN-qt.pro
+	CREDICOIN-qt.pro
 	contrib/verifysfbinaries/verify.sh
 	doc/README*
 	share/setup.nsi
@@ -24,7 +24,7 @@ Release Process
 
 ##perform gitian builds
 
- From a directory containing the CREDCOIN source, gitian-builder and gitian.sigs
+ From a directory containing the CREDICOIN source, gitian-builder and gitian.sigs
   
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=0.8.0
@@ -42,54 +42,54 @@ Release Process
 	wget 'http://downloads.sourceforge.net/project/boost/boost/1.50.0/boost_1_50_0.tar.bz2'
 	wget 'http://releases.qt-project.org/qt4/source/qt-everywhere-opensource-src-4.8.3.tar.gz'
 	cd ..
-	./bin/gbuild ../CREDCOIN/contrib/gitian-descriptors/boost-win32.yml
+	./bin/gbuild ../CREDICOIN/contrib/gitian-descriptors/boost-win32.yml
 	mv build/out/boost-win32-1.50.0-gitian2.zip inputs/
-	./bin/gbuild ../CREDCOIN/contrib/gitian-descriptors/qt-win32.yml
+	./bin/gbuild ../CREDICOIN/contrib/gitian-descriptors/qt-win32.yml
 	mv build/out/qt-win32-4.8.3-gitian-r1.zip inputs/
-	./bin/gbuild ../CREDCOIN/contrib/gitian-descriptors/deps-win32.yml
-	mv build/out/CREDCOIN-deps-0.0.5.zip inputs/
+	./bin/gbuild ../CREDICOIN/contrib/gitian-descriptors/deps-win32.yml
+	mv build/out/CREDICOIN-deps-0.0.5.zip inputs/
 
- Build CREDCOIN and CREDCOIN-qt on Linux32, Linux64, and Win32:
+ Build CREDICOIN and CREDICOIN-qt on Linux32, Linux64, and Win32:
   
-	./bin/gbuild --commit CREDCOIN=v${VERSION} ../CREDCOIN/contrib/gitian-descriptors/gitian.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../CREDCOIN/contrib/gitian-descriptors/gitian.yml
+	./bin/gbuild --commit CREDICOIN=v${VERSION} ../CREDICOIN/contrib/gitian-descriptors/gitian.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../CREDICOIN/contrib/gitian-descriptors/gitian.yml
 	pushd build/out
-	zip -r CREDCOIN-${VERSION}-linux-gitian.zip *
-	mv CREDCOIN-${VERSION}-linux-gitian.zip ../../
+	zip -r CREDICOIN-${VERSION}-linux-gitian.zip *
+	mv CREDICOIN-${VERSION}-linux-gitian.zip ../../
 	popd
-	./bin/gbuild --commit CREDCOIN=v${VERSION} ../CREDCOIN/contrib/gitian-descriptors/gitian-win32.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win32 --destination ../gitian.sigs/ ../CREDCOIN/contrib/gitian-descriptors/gitian-win32.yml
+	./bin/gbuild --commit CREDICOIN=v${VERSION} ../CREDICOIN/contrib/gitian-descriptors/gitian-win32.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win32 --destination ../gitian.sigs/ ../CREDICOIN/contrib/gitian-descriptors/gitian-win32.yml
 	pushd build/out
-	zip -r CREDCOIN-${VERSION}-win32-gitian.zip *
-	mv CREDCOIN-${VERSION}-win32-gitian.zip ../../
+	zip -r CREDICOIN-${VERSION}-win32-gitian.zip *
+	mv CREDICOIN-${VERSION}-win32-gitian.zip ../../
 	popd
 
   Build output expected:
 
-  1. linux 32-bit and 64-bit binaries + source (CREDCOIN-${VERSION}-linux-gitian.zip)
-  2. windows 32-bit binary, installer + source (CREDCOIN-${VERSION}-win32-gitian.zip)
+  1. linux 32-bit and 64-bit binaries + source (CREDICOIN-${VERSION}-linux-gitian.zip)
+  2. windows 32-bit binary, installer + source (CREDICOIN-${VERSION}-win32-gitian.zip)
   3. Gitian signatures (in gitian.sigs/${VERSION}[-win32]/(your gitian key)/
 
 repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 **Linux .tar.gz:**
 
-	unzip CREDCOIN-${VERSION}-linux-gitian.zip -d CREDCOIN-${VERSION}-linux
-	tar czvf CREDCOIN-${VERSION}-linux.tar.gz CREDCOIN-${VERSION}-linux
-	rm -rf CREDCOIN-${VERSION}-linux
+	unzip CREDICOIN-${VERSION}-linux-gitian.zip -d CREDICOIN-${VERSION}-linux
+	tar czvf CREDICOIN-${VERSION}-linux.tar.gz CREDICOIN-${VERSION}-linux
+	rm -rf CREDICOIN-${VERSION}-linux
 
 **Windows .zip and setup.exe:**
 
-	unzip CREDCOIN-${VERSION}-win32-gitian.zip -d CREDCOIN-${VERSION}-win32
-	mv CREDCOIN-${VERSION}-win32/CREDCOIN-*-setup.exe .
-	zip -r CREDCOIN-${VERSION}-win32.zip bitcoin-${VERSION}-win32
-	rm -rf CREDCOIN-${VERSION}-win32
+	unzip CREDICOIN-${VERSION}-win32-gitian.zip -d CREDICOIN-${VERSION}-win32
+	mv CREDICOIN-${VERSION}-win32/CREDICOIN-*-setup.exe .
+	zip -r CREDICOIN-${VERSION}-win32.zip bitcoin-${VERSION}-win32
+	rm -rf CREDICOIN-${VERSION}-win32
 
 **Perform Mac build:**
 
   OSX binaries are created by Gavin Andresen on a 32-bit, OSX 10.6 machine.
 
-	qmake RELEASE=1 USE_UPNP=1 USE_QRCODE=1 CREDCOIN-qt.pro
+	qmake RELEASE=1 USE_UPNP=1 USE_QRCODE=1 CREDICOIN-qt.pro
 	make
 	export QTDIR=/opt/local/share/qt4  # needed to find translations/qt_*.qm files
 	T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
@@ -107,14 +107,14 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 * create SHA256SUMS for builds, and PGP-sign it
 
-* update CREDCOIN.io version
+* update CREDICOIN.io version
   make sure all OS download links go to the right versions
 
 * update forum version
 
 * update wiki download links
 
-* update wiki changelog: [https://en.CREDCOIN.it/wiki/Changelog](https://en.bitcoin.it/wiki/Changelog)
+* update wiki changelog: [https://en.CREDICOIN.it/wiki/Changelog](https://en.bitcoin.it/wiki/Changelog)
 
 Commit your signature to gitian.sigs:
 
@@ -129,32 +129,32 @@ Commit your signature to gitian.sigs:
 
 ### After 3 or more people have gitian-built, repackage gitian-signed zips:
 
-From a directory containing CREDCOIN source, gitian.sigs and gitian zips
+From a directory containing CREDICOIN source, gitian.sigs and gitian zips
 
 	export VERSION=0.5.1
-	mkdir CREDCOIN-${VERSION}-linux-gitian
-	pushd CREDCOIN-${VERSION}-linux-gitian
-	unzip ../CREDCOIN-${VERSION}-linux-gitian.zip
+	mkdir CREDICOIN-${VERSION}-linux-gitian
+	pushd CREDICOIN-${VERSION}-linux-gitian
+	unzip ../CREDICOIN-${VERSION}-linux-gitian.zip
 	mkdir gitian
-	cp ../CREDCOIN/contrib/gitian-downloader/*.pgp ./gitian/
+	cp ../CREDICOIN/contrib/gitian-downloader/*.pgp ./gitian/
 	for signer in $(ls ../gitian.sigs/${VERSION}/); do
-	 cp ../gitian.sigs/${VERSION}/${signer}/CREDCOIN-build.assert ./gitian/${signer}-build.assert
-	 cp ../gitian.sigs/${VERSION}/${signer}/CREDCOIN-build.assert.sig ./gitian/${signer}-build.assert.sig
+	 cp ../gitian.sigs/${VERSION}/${signer}/CREDICOIN-build.assert ./gitian/${signer}-build.assert
+	 cp ../gitian.sigs/${VERSION}/${signer}/CREDICOIN-build.assert.sig ./gitian/${signer}-build.assert.sig
 	done
-	zip -r CREDCOIN-${VERSION}-linux-gitian.zip *
-	cp CREDCOIN-${VERSION}-linux-gitian.zip ../
+	zip -r CREDICOIN-${VERSION}-linux-gitian.zip *
+	cp CREDICOIN-${VERSION}-linux-gitian.zip ../
 	popd
-	mkdir CREDCOIN-${VERSION}-win32-gitian
-	pushd CREDCOIN-${VERSION}-win32-gitian
-	unzip ../CREDCOIN-${VERSION}-win32-gitian.zip
+	mkdir CREDICOIN-${VERSION}-win32-gitian
+	pushd CREDICOIN-${VERSION}-win32-gitian
+	unzip ../CREDICOIN-${VERSION}-win32-gitian.zip
 	mkdir gitian
-	cp ../CREDCOIN/contrib/gitian-downloader/*.pgp ./gitian/
+	cp ../CREDICOIN/contrib/gitian-downloader/*.pgp ./gitian/
 	for signer in $(ls ../gitian.sigs/${VERSION}-win32/); do
-	 cp ../gitian.sigs/${VERSION}-win32/${signer}/CREDCOIN-build.assert ./gitian/${signer}-build.assert
-	 cp ../gitian.sigs/${VERSION}-win32/${signer}/CREDCOIN-build.assert.sig ./gitian/${signer}-build.assert.sig
+	 cp ../gitian.sigs/${VERSION}-win32/${signer}/CREDICOIN-build.assert ./gitian/${signer}-build.assert
+	 cp ../gitian.sigs/${VERSION}-win32/${signer}/CREDICOIN-build.assert.sig ./gitian/${signer}-build.assert.sig
 	done
-	zip -r CREDCOIN-${VERSION}-win32-gitian.zip *
-	cp CREDCOIN-${VERSION}-win32-gitian.zip ../
+	zip -r CREDICOIN-${VERSION}-win32-gitian.zip *
+	cp CREDICOIN-${VERSION}-win32-gitian.zip ../
 	popd
 
 - Upload gitian zips to SourceForge
